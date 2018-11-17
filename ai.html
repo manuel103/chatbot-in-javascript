@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>THIS IS HANNAH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+   <style>
+       *
+       {
+           padding: 0;
+           margin: 0;
+       }
+       body
+       {
+           background: #1c1c1c;
+           width: 100%;
+       }
+
+       form
+       {
+           text-align: center;
+           margin-top: 20px;
+       }
+
+       #textField
+       {
+           border: 0;
+           outline: 0;
+           width: 90%;
+           height: 100px;
+           font: 50px tahoma;
+           background: #1c1c1c;
+           color: white;
+           opacity: 0.5;
+           border-bottom: 1px solid white;
+           transition: opacity 700ms, color 700ms, border-bottom 700ms;
+       }
+
+       #textField:hover
+       {
+           opacity: 1;
+       }
+
+       #askButton
+       {
+           border: 0;
+           outline: 0;
+           background: none;
+           color: white;
+           font: 30px existence;
+           cursor: pointer;
+           transition: color 300ms;
+       }
+
+       #askButton:hover, #askButton:focus
+       {
+           color: #303030;
+       }
+
+       #chatArea
+       {
+           width: 90%;
+           margin: 20px auto 0px;
+           font: 14px tahoma;
+           color: white;
+       }
+   </style>
+</head>
+<body>
+    <form id="mainForm" autocomplete="off">
+        <input id="textField" type="text" /><br /><br />
+        <input id="askButton" type="submit" value="Ask!" /><br /><br />
+    </form>
+
+    <div id="chatArea"> HI! MY NAME IS HANNAH. HOW CAN I HELP YOU?<br/><br/></div>
+
+</body>
+<script src="mind.js"></script>
+</html>
